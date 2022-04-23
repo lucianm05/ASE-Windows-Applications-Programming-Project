@@ -52,55 +52,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsigurareClientForm.cs">
+    <Compile Include="Forms\AsigurareClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AsigurareClientForm.Designer.cs">
+    <Compile Include="Forms\AsigurareClientForm.Designer.cs">
       <DependentUpon>AsigurareClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChartForm.cs">
+    <Compile Include="Forms\ChartForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChartForm.Designer.cs">
+    <Compile Include="Forms\ChartForm.Designer.cs">
       <DependentUpon>ChartForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientForm.cs">
+    <Compile Include="Forms\ClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientForm.Designer.cs">
+    <Compile Include="Forms\ClientForm.Designer.cs">
       <DependentUpon>ClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditAsigurareForm.cs">
+    <Compile Include="Forms\EditAsigurareForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditAsigurareForm.Designer.cs">
+    <Compile Include="Forms\EditAsigurareForm.Designer.cs">
       <DependentUpon>EditAsigurareForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Entities\Asigurare.cs" />
     <Compile Include="Entities\Client.cs" />
     <Compile Include="Entities\Vanzare.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MainFormViewModel.cs" />
-    <EmbeddedResource Include="AsigurareClientForm.resx">
+    <EmbeddedResource Include="Forms\AsigurareClientForm.resx">
       <DependentUpon>AsigurareClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChartForm.resx">
+    <EmbeddedResource Include="Forms\ChartForm.resx">
       <DependentUpon>ChartForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientForm.resx">
+    <EmbeddedResource Include="Forms\ClientForm.resx">
       <DependentUpon>ClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditAsigurareForm.resx">
+    <EmbeddedResource Include="Forms\EditAsigurareForm.resx">
       <DependentUpon>EditAsigurareForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
